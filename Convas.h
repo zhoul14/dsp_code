@@ -1,0 +1,46 @@
+#ifndef DSP_CON_VAS
+#define	DSP_CON_VAS
+
+#define FEATURE_DIM 45
+#define ALL_CBNUM 3206
+#define NOISE_ID 3205
+#define	INITIAL_WORD_NUM 100
+#define	FINAL_WORD_NUM 164
+
+
+#define MAX_CMD_WORD_NUM 6
+#define MAX_CMD_NUM 54
+
+#define	INITIAL_WORD_STATE_NUM 2
+#define	FINAL_WORD_STATE_NUM 4
+#define	TOTAL_WORD_NUM 1254
+#define TOTAL_SYLLABLE_NUM 408
+#define	HMM_STATE_DUR 6
+
+#define MAX_FRAME_NUMS 500
+#define MAX_MASKED_NUMS 40
+#define PI 3.14159265358979
+
+
+#define	STATE_NUM_IN_WORD 9
+
+#define	C_CLASS_NUM 27
+#define	V_CLASS_NUM 29
+
+#define INITIAL0 0
+#define INITIAL0_C 1
+#define INITIAL1 2
+#define FINAL0 3
+#define FINAL1 4
+#define FINAL2 5
+#define	FINAL2_C 6
+#define FINAL3 7
+#define FINAL3_C 8
+#define	TAIL_NOISE 9
+#define INVALID_CB_TYPE 10
+
+#define NO_PREVIOUS_WORD -1
+#define NO_NEXT_WORD -1
+
+#define MAX_BINSET_SIZE 60
+#endif // DEBUG
